@@ -1,0 +1,92 @@
+body {
+    width: 1040px;
+    padding: 0%;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+header {
+    background-color: aqua;
+    margin-top: -22px;
+}
+
+.hero-image-text {
+padding: 400px 0 0;
+
+}
+
+h2 {
+    background-color: grey;
+   width: 900px;
+   padding: 10px 0;
+   color: white;
+   opacity: 85%;
+   margin-left: 70px;
+   text-align: left;
+}
+
+p {
+    background-color: grey;
+    width: 900px;
+    padding: 20px 0;
+    color: white;
+    opacity: 85%;
+    text-align: left;
+    margin-left: 70px;
+
+}
+.hero-image {
+    background-image: url(mars-images/hero.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 200px 300px ;
+    gap: 10px;
+    margin: 0px -270px;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+ 
+
+}
+
+.item {
+    text-align: center;
+    width: 900px;
+    height: 400px;
+}
+
+.item img {
+    width: 325px;
+    height: 200px;
+}
+
+footer {
+background-color: aquamarine;
+margin-bottom: -500px;
+
+}
+
+.flex-container {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center
+}
+
+.flex-container div {
+    flex: 1;
+    padding: 10px;
+    border-radius: 2px;
+    flex-direction: row;
+    text-align: center;
+}
